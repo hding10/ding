@@ -11,6 +11,7 @@ html {
 }
 body {
   margin: 0;
+  background-images: url("images/1.jpg")
 }
 article,
 aside,
@@ -1332,7 +1333,8 @@ mark,
   text-transform: uppercase;
 }
 .text-capitalize {
-  text-transform: capitalize;
+	text-transform: capitalize;
+	font-size: 50px;
 }
 .text-muted {
   color: #777;
@@ -4970,9 +4972,10 @@ a.badge:focus {
   color: inherit;
 }
 .jumbotron p {
-  margin-bottom: 15px;
-  font-size: 21px;
-  font-weight: 200;
+	margin-bottom: 15px;
+	font-size: 30px;
+	font-weight: 200;
+	text-align: right;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -4998,7 +5001,7 @@ a.badge:focus {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+	font-size: 32px;
   }
 }
 .thumbnail {
